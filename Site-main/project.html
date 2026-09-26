@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="stylesheet" type="text/css" href="/animate.css/animate.css">
+</head>
+
+<body>
+
+    <header class="animate__animated animate__slideInDown">
+        <nav class="animate__animated animate__fadeInUp">
+            <div id="title-nav">Bean Scene</div>
+            <div id="wrapper-links-nav">
+                <a id="Home" href="#">
+                    Home
+                </a>
+                <a id="Menu" href="#block1-coffee">
+                    Menu
+                </a>
+                <a id="About" href="#title-block3">
+                    About us
+                </a>
+                <a href="#contact-info" id="link4-nav">
+                    Contact us
+                </a>
+            </div>
+            <div id="wrapper-reg">
+                <a id="reg-link1" class="reg-link">Sign in</a>
+                <div id="rectangle-link2">
+                    <a class="reg-link" id="reg-link2">
+                        <div>SignUp</div>
+                    </a>
+                </div>
+            </div>
+            
+        </nav>
+        <div id="wrapper-text-block">
+            <div id="wrapper-top-text">
+                <p id="top-text1">We’ve got your morning covered with</p>
+                <p id="top-text2">Coffee</p>
+                <p id="top-text3">
+                    It is best to start your day with a cup of coffee. Discover the
+                    best flavours coffee you will ever have. We provide the best
+                    for our customers.
+                </p>
+            </div>
+            <div>
+                <div class="wrapper-order-link">
+                    <a href="#" class="order-link">
+                        Order Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+
+
+
+        <div id="block1">
+
+
+            <div id="block-bestcoffee">
+                <div id="text-bestcoffee" class="animate__animated animate__slideInLeft">
+                    <p id="text1-bestcoffee">Discover the best coffee</p>
+                    <p id="text2-bestcoffee">
+                        Bean Scene is a coffee shop that provides you with quality coffee
+                        that helps boost your productivity and helps build your mood.
+                        Having a cup of coffee is good, but having a cup of real coffee is
+                        greater. There is no doubt that you will enjoy this coffee more
+                        than others you have ever tasted.
+                    </p>
+                    <div id="bg-link-bestcoffee"><a href="#" id="link-bestcoffee">Learn More</a></div>
+                </div>
+                <div id="wrapper-img-bestcoffee" class="animate__animated animate__slideInRight">
+                    <img src="/Изображения/Cup.png" alt="" id="img-bestcoffee">
+                </div>
+            </div>
+
+
+            <div id="wrapper-img-coffee-blast" class="coffee-blast-left">
+                <div id="img-coffee-blast"></div>
+            </div>
+
+
+            <div id="block1-coffee">
+                <p id="block1-coffee-text1">Enjoy a new blend of coffee style</p>
+                <p id="block1-coffee-text2">Explore all flavours of coffee with us. There is always a new cup worth experiencing</p>
+                <div id="wrapper-row-block1-coffee">
+                    <div class="block-coffee-buttons" id="block-coffee-buttons-1">
+                        <button style="background-image: url(/Изображения/arrow-left.png);background-size: cover;" id="btn-left" onclick="back()"></button>
+                    </div>
+                    <div id="cards">
+                    <div class="blocks-row-block1-coffee">
+                        <div id="bg-img-coffee1" class="bg-img-coffee"></div>
+                        <p class="text1-block-row-block1-coffee">Cappuccino</p>
+                        <p class="text2-block-row-block1-coffee">Coffee 50% | Milk 50%</p>
+                        <p class="text3-block-row-block1-coffee">$8.50</p>
+                        <div class="block-row-coffee-wrapper-order-link">
+                            <button class="block-row-coffee-order-link cart-order-btn" onclick="addToCart('Cappuccino', 8.50)">Order Now</button>
+                        </div>
+                    </div>
+                    <div class="blocks-row-block1-coffee">
+                        <div id="bg-img-coffee2" class="bg-img-coffee"></div>
+                        <p class="text1-block-row-block1-coffee">Chai Latte</p>
+                        <p class="text2-block-row-block1-coffee">Coffee 50% | Milk 50%</p>
+                        <p class="text3-block-row-block1-coffee">$8.50</p>
+                        <div class="block-row-coffee-wrapper-order-link">
+                            <button class="block-row-coffee-order-link cart-order-btn" onclick="addToCart('Chai Latte', 8.50)">Order Now</button>
+                        </div>
+                    </div>
+                    <div class="blocks-row-block1-coffee">
+                        <div id="bg-img-coffee3" class="bg-img-coffee"></div>
+                        <p class="text1-block-row-block1-coffee">Macchiato</p>
+                        <p class="text2-block-row-block1-coffee">Coffee 50% | Milk 50%</p>
+                        <p class="text3-block-row-block1-coffee">$8.50</p>
+                        <div class="block-row-coffee-wrapper-order-link">
+                            <button class="block-row-coffee-order-link cart-order-btn" onclick="addToCart('Macchiato', 8.50)">Order Now</button>
+                        </div>
+                    </div>
+                    <div class="blocks-row-block1-coffee">
+                        <div id="bg-img-coffee4" class="bg-img-coffee"></div>
+                        <p class="text1-block-row-block1-coffee">Expresso</p>
+                        <p class="text2-block-row-block1-coffee">Coffee 50% | Milk 50%</p>
+                        <p class="text3-block-row-block1-coffee">$8.50</p>
+                        <div class="block-row-coffee-wrapper-order-link">
+                            <button class="block-row-coffee-order-link cart-order-btn" onclick="addToCart('Expresso', 8.50)">Order Now</button>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="block-coffee-buttons" id="block-coffee-buttons-2">
+                        <button style="background-image: url(/Изображения/arrow-right.png); background-size: cover;" id="btn-right" onclick="next()"></button>
+                    </div>
+                </div>
+            </div>
+            <div id="menu-block">
+                    <button id="fullmenu" class= "button-full-menu" onclick="viewfullmenu()">Show full menu</button>
+            </div>
+
+            <div id="wrapper-img-coffee-blast-invert">
+                <div id="img-coffee-blast-invert" class="coffee-blast-right"></div>
+            </div>
+
+
+            <div id="block1-advantages">
+                <p id="block1-coffee-text1">Why are we different?</p>
+                <p id="block1-coffee-text2">We don’t just make your coffee, we make your day!</p>
+                <div id="wrapper-row-block1-advantages">
+                    <div class="blocks-row-block1-advantages">
+                        <div id="bg-img-advantages1" class="bg-img-advantages"></div>
+                        <p class="text1-block-row-block1-advantages">Supreme Beans</p>
+                        <p class="text2-block-row-block1-advantages">Beans that provides great taste</p>
+                    </div>
+                    <div class="blocks-row-block1-advantages">
+                        <div id="bg-img-advantages2" class="bg-img-advantages"></div>
+                        <p class="text1-block-row-block1-advantages">High Quality</p>
+                        <p class="text2-block-row-block1-advantages">We provide the highest quality</p>
+                    </div>
+                    <div class="blocks-row-block1-advantages">
+                        <div id="bg-img-advantages3" class="bg-img-advantages"></div>
+                        <p class="text1-block-row-block1-advantages">Extraordinary</p>
+                        <p class="text2-block-row-block1-advantages">Coffee like you have never tasted</p>
+                    </div>
+                    <div class="blocks-row-block1-advantages">
+                        <div id="bg-img-advantages4" class="bg-img-advantages"></div>
+                        <p class="text1-block-row-block1-advantages">Affordable Price</p>
+                        <p class="text2-block-row-block1-advantages">Our Coffee prices are easy to afford</p>
+                    </div>
+                </div>
+                <p id="block1-advantages-text3">Great ideas start with great coffee, Lets help you achieve that</p>
+                <p id="block1-advantages-text4">Get started today.</p>
+                <div id="wrapper-link-advantages">
+                    <a href="#" id="link-advantages">Order Now</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="block2">
+            <div id="texts-block2">
+                <p id="text1_block2"> Get a chance to have an Amazing morning</p>
+                <p id="text2_block2">We are giving you are one time opportunity to experience a better life with coffee.</p>
+            
+                <div>
+                    <div class="wrapper-order-link">
+                        <a href="#" class="order-link">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <div id="cup_1">
+                <img src="/Изображения/cup1.png" id ="img-cup_1">
+            </div>
+        </div>
+
+
+        <div id="block3">
+            <h1 id="title-block3">ABOUT US</h1>
+            <div id="wrapper-block3">
+                <div class="block-block3" id="block1-block3">
+                    <h2 class="title-block3">Our Origins</h2>
+                    <p class="text-block3">We lovingly roast our own beans, selecting only the finest Arabica varieties from plantations in Ethiopia, Brazil, and Colombia. Every batch is a story we want to share with you.</p>
+                </div>
+                <div class="block-block3" id="block2-block3">
+                    <h2 class="title-block3">Our Philosophy</h2>
+                    <p class="text-block3">We believe a coffee shop is more than just a place to get coffee. It's a place for meetings, inspiration, and relaxation. Here, everyone can feel at home.</p>
+                </div>
+                <div class="block-block3" id="block3-block3">
+                    <h2 class="title-block3">The Art of the Barista</h2>
+                    <p class="text-block3">Our baristas are true enthusiasts of their craft. They don't just make drinks; they create small works of art, putting a piece of their soul into every cup.</p>
+                </div>
+            </div>
+            <div id="wrapper-video">
+            <video width="50%" height="25%" controls="controls autoplay">
+                <source src="/Изображения/video.mp4" type="video/mp4"/>
+            </video>
+            </div>
+        </div>
+    </main>
+
+
+    <footer>
+        <div id="email-block">
+            <div id="sub">
+                <p>Subscribe to get the Latest News</p>
+            </div>
+
+            <div id="underSub">
+                <p>Don’t miss out on our latest news, updates, tips and special offers</p>
+            </div>
+        
+            <div id="form">
+                <div id="mail">
+                    <form action="#" method="post">
+                        <input type="email" placeholder="Enter your mail" required id="input-email">
+                        <button type="submit" id="button-subscribe">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div id="footer-cup_coffee1"></div>
+            <div id="footer-cup_coffee2"></div>
+        </div>
+        <div id="footer-info">
+            <div id="wrapper-info">
+                <div class="blocks-info" id="block1-info">
+                    <p id="text1-info">Bean Scene</p>
+                    <table>
+                        <tr>
+                            <th>Mon</th>
+                            <th>Tue</th>
+                            <th>Wed</th>
+                            <th>Thu</th>
+                            <th>Fri</th>
+                            <th>Sat</th>
+                            <th>Sun</th>
+                        </tr>
+                        <tr>
+                            <td>9:00 - 20:00</td>
+                            <td>9:00 - 20:00</td>
+                            <td>9:00 - 20:00</td>
+                            <td>9:00 - 20:00</td>
+                            <td>9:00 - 20:00</td>
+                            <td>10:00 - 18:00</td>
+                            <td>Don't work</td>
+                        </tr>
+                    </table>
+                    <!-- <p id="text2-info"> 
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    </p> -->
+                    <div id="wrapper-links-info">
+                        <div class="links-info" id="link1-info">
+                            <a href="#" class="order-link"> </a>
+                        </div>
+                        <div id="link2-info" class="links-info">
+                            <a href="#"  class="order-link"></a>
+                        </div>
+                        <div id="link3-info" class="links-info">
+                            <a href="#" class="order-link"></a>
+                        </div>
+                        <div id="link4-info" class="links-info">
+                            <a href="#" class="order-link"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="blocks-info" id="block2-info">
+                    <p class="title-info">About</p>
+                    <div id="footMenu"><a href="#block1-coffee" class="text-info">Menu</a></div>
+                    <div id="footFeat"><a href="#" class="text-info">Features</a></div>
+                    <div id="News"><a href="#" class="text-info">News & Blogs</a></div>
+                    <div id="Help"><a href="#" class="text-info">Help & Supports</a></div>
+                </div>
+                <div class="blocks-info" id="block3-info">
+                    <p class="title-info">Company</p>
+                    <div id="How"><a href="" class="text-info">How we work</a></div>
+                    
+                    <div id="Terms"><a href="" class="text-info">Terms of service</a></div>
+                    <div id="Pricing"><a href="" class="text-info">Pricing</a></div>
+                    <div id="FAQ"><a href="" class="text-info">FAQ</a></div>
+                </div>
+                <div class="blocks-info" id="block4-info">
+                    <p class="title-info" id="contact-info">Contact Us</p>
+                    <p class="text-info-address">Akshya Nagar 1st Block 1st Cross,<br> Rammurthy nagar, Bangalore-560016</p>
+                    <p class="text-info">+1 202-918-2132<br>beanscene@mail.com<br>www.beanscene.com</p>
+                </div>
+            </div>
+        </div>
+        
+        
+    </footer>
+    <!-- Иконка корзины справа снизу -->
+<div id="cartIcon" onclick="openCart()">
+    <div id="cartCount">0</div>
+</div>
+
+<!-- Затемнение фона -->
+<div id="cartOverlay" onclick="closeCart()"></div>
+
+<!-- Модальное окно корзины слева -->
+<div id="cartModal">
+    <div id="cartHeader">
+        <h2>Your Cart</h2>
+        <button id="closeCartBtn" onclick="closeCart()">×</button>
+    </div>
+
+    <div id="cartItems"></div>
+
+    <div id="cartFooter">
+        <h3>Total: $<span id="cartTotal">0</span></h3>
+
+        <button id="buyBtn" onclick="buyCart()">Buy</button>
+        <button id="clearCartBtn" onclick="clearCart()">Cancel All</button>
+    </div>
+</div>
+    <script src="/animations.js"></script>
+    <script src="/coffee-menu.js"></script>
+    <script src="/fullmenu.js"></script>
+    <script src="/signJS.js"></script>
+    <script src="/signUP.js"></script>
+    <script src="cart.js"></script>
+</body>
+
+</html>

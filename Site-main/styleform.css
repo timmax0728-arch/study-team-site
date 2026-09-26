@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Pacifico&family=Science+Gothic:wght@100..900&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Bodoni Moda", serif;
+    display: flex;
+    height: 100vh;
+}
+
+#top-text-2 {
+    font-family: "Clicker Script", cursive;
+    font-weight: 300;
+    font-style: normal;
+    color: black;
+    font-size: 190px;
+    text-decoration: none;
+}
+#wrapper-top-text2 a {
+    color: black;
+    margin: 0px;
+    display: flex;
+    align-items: flex-start;
+    margin-top: -200px;
+}
+
+.left {
+    flex: 1;
+    background-image: url(/Изображения/d199b798324626583f0557e418c88125.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color: rgba(75, 36, 0, 0.774);
+}
+
+.right {
+    width: 40%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+input[type="Name"],
+input[type="Email"],
+input[type="Password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+.Terms input {
+    margin-right: 8px;
+    margin-top: 20px;
+}
+
+.SignUp {
+    margin-top: 20px;
+    padding: 12px;
+    background: linear-gradient(to right, #FFCA86, #755c48);
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s;
+    font-size: 20px;
+}
+
+.SignUp:hover {
+    background: linear-gradient(to right, orange, brown);
+    transform: scale(1.02);
+}
+
+.sign-in {
+    margin-top: 15px;
+    text-align: right;
+    font-size: 20px;
+    color: #555;
+}
+.sign-in a {
+    text-decoration: none;
+    color: brown;
+}
+
+
+
+body {
+    animation: pageFade 0.6s ease;
+}
+@keyframes pageFade {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
+.right h2,
+.right form {
+    animation: gentleSlide 0.5s ease-out;
+}
+@keyframes gentleSlide {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Анимация полей при фокусе */
+input:focus {
+    transform: scale(1.01);
+    border-color: #f79401;
+    outline: none;
+    box-shadow: 0 0 5px rgba(247,148,1,0.3);
+}

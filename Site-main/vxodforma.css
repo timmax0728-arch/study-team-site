@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Pacifico&family=Science+Gothic:wght@100..900&display=swap');
+
+ body {
+    background-image: url(/Изображения/6759275d205a7bad684f1f7132356d41.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bodoni Moda", sans-serif;
+    background-color: #fff;
+  }
+
+  .form-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 0 75px #f79401;
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 30px
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  input[type="email"],
+  input[type="password"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+
+  .button {
+    padding: 12px;
+    background: linear-gradient(to right, #FFCA86, #755c48);
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform  0.3s;
+    font-size: 18px;
+  }
+
+  .button:hover {
+    background: linear-gradient(to right, orange, brown);
+    /* box-shadow: 
+   0 0 0 2px black */
+   transform: scale(1.02);
+  }
+
+  .sign-up {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 0.9em;
+  }
+
+  .sign-up a {
+    color: blue;
+    text-decoration: none;
+  }
+  .sign-up a:hover{
+    color: #f79401;
+  }
+
+  span{
+    text-decoration: none;
+    color: blue;
+  }
+
+  span:hover{
+    color: #f79401;
+  }
+  
